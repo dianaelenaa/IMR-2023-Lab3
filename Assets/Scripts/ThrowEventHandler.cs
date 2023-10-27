@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class PlayerThrowable : MonoBehaviour
+public class ThrowEventHandler : MonoBehaviour
 {
     [SerializeField] private InputActionReference throwActionReference;
     [SerializeField] private Transform rightControllerTransform;

@@ -16,7 +16,7 @@ public class CollisionHandler : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag == "Ball"){
-            PlayerThrowable throwable = collision.gameObject.GetComponent<PlayerThrowable>();
+            ThrowEventHandler throwable = collision.gameObject.GetComponent<ThrowEventHandler>();
 
             if (throwable)
             {
